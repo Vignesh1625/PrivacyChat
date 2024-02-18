@@ -1,0 +1,57 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./assets/background-image.jpeg);
+  color: white;
+}
+.chatsbackground {
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full viewport height */
+  color:black;
+}
+
+/* You can add more styles as needed for the ChatEngine component or other elements in the component */
+
+
+.background {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  margin-bottom: 20px;
+}
+
+.auth-label {
+  margin-bottom: 5px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
